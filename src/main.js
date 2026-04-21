@@ -4,11 +4,12 @@ import App from './App.vue'
 import './style.css'
 
 import Home from './views/Home.vue'
-import Messages from './views/Messages.vue'
+import Memories from './views/Memories.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/messages', component: Messages }
+  {path: '/memories', component: Memories}
+
 ]
 
 const router = createRouter({
